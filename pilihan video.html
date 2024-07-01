@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FILMKU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="">
+  </head>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark" data-bs-theme="dark"><!--mengatur tema warna navbar-->
+      <div class="container-fluid"><!--mengatur navbar agar penuh pada layar-->
+        <a class="navbar-brand" href="home.html"><i class="fa-solid fa-clapperboard" style="color: red;"></i><strong> FILMKU</strong></a><!--logo film-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"><!--mengatur tata letak navbar secara otomatis-->
+            <li class="nav-item">
+              <a class="nav-link1 active" aria-current="page" href="home.html"><i class="fa-solid fa-house"></i> Home</a><!--home button dengan logo-->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link1 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><!--active = menandai elemen yang sedang aktif, biasanya link, tombol, item daftar-->
+                <i class="fa-solid fa-film"></i> Film<!--dropdown film dengan logo-->
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pilihan video.html">Action</a></li><!--pilihan dropdown film yang mempunyai link ke pilihan video.html-->
+                <li><a class="dropdown-item" href="pilihan video.html">Romance</a></li>
+                <li><a class="dropdown-item" href="pilihan video.html">Horror</a></li>
+                <li><a class="dropdown-item" href="pilihan video.html">Drama</a></li>
+                <li><a class="dropdown-item" href="pilihan video.html">Comedy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link1 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-tv"></i> TV Series<!--dropdown tv series dengan logo-->
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pilihan video.html">Action</a></li><!--pilihan dropdown tv series yang mempunyai link ke pilihan video.html-->
+                <li><a class="dropdown-item" href="pilihan video.html">Romance</a></li>
+                <li><a class="dropdown-item" href="pilihan video.html">Horror</a></li>
+                <li><a class="dropdown-item" href="pilihan video.html">Drama</a></li>
+                <li><a class="dropdown-item" href="pilihan video.html">Comedy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1 active" href="aboutUs.html"><i class="fa-solid fa-circle-info"></i> About Us</a><!--about us dengan logo-->
+            </li>
+          </ul>
+          <form class="d-flex" role="search"><!--mempermudah dalam tata letak elemen secara responsif dan dinamis-->
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <!--me-2 mengatur jarak antara form dengan button search-->
+            <button class="btn btn-danger" type="submit">Search</button><!--button danger warna merah-->
+          </form>
+          <li class="nav-item text-center p-1"><!--text menjadi di tengah dan padding diatur dengan value 1-->
+            <button class="btn btn-outline-danger border-2" type="button"><!--warna button merah dan warna hanya di outline dengan ketebalan border 2-->
+              <a class="nav-link1 active text-light text-decoration-none" href="login.html"><!--warna teks putih, menghilangkan garis underline-->
+                <i class="fa-solid fa-user"></i> Login
+                </a>
+              </button>
+            </li>        
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body class="container-fluid bg-dark"><!--container-fluid=kontainer yang memiliki lebar penuh, bg-dark=warna background dark-->
+    <h3 class="text-white">Romance</h3><!--text-white=warna text putih-->
+    <div class="table-responsive"><!--table-responsive=bisa digeser geser-->
+      <table class="table">
+        <tr>
+          <td class="rounded-3 bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="akhir-titik-balik.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="broken-memories.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="Film-Kau-dan-Dia.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3  bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="imperfect.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3  bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="Keluarga-Cemara.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="kembang-api.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="PutarBitterSweat.html">
+                  <img src="miracle-in-cell.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h3 class="text-white">Horor</h3>
+    <div class="table-responsive">
+      <table class="table">
+        <tr>
+          <td class="rounded-3  bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="jagat-arwah.jpeg" class="rounded" alt="gambar"
+                  width="auto" height="120px"><!--rounded=agar gambar melengkung-->
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="keira.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="kkn.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="pengabdi-setan.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="ritual.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="tulah.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h3 class="text-white">Action</h3>
+    <div class="table-responsive">
+      <table class="table">
+        <tr>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="13bom-di-jakarta.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="3-srikandi.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="gundala.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="humba.jpeg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="marlina.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+              <a href="13-bom-di-jakarta.html">
+                  <img src="Night Bus.jpg" class="rounded" alt="gambar"
+                  width="auto" height="120px">
+              </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+            <a href="13-bom-di-jakarta.html">
+                <img src="van-der-wijck.png" class="rounded" alt="gambar"
+                width="auto" height="120px">
+            </a>
+          </td>
+          <td class="rounded-3 bg-dark">
+            <a href="13-bom-di-jakarta.html">
+                <img src="Wiro-Sableng.jpg" class="rounded" alt="gambar"
+                width="auto" height="120px">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer class="py-5 px-4 bg-black container-fluid" data-bs-theme="black">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <h3><a class="navbar-brand" href="home.html"><i class="fa-solid fa-clapperboard" style="color: red;"></i><strong> FILMKU</strong></a></h3>
+            <p class="text-secondary" style="text-align: justify;">FILMKU merupakan situs penyedia layanan streaming film dan serial tv gratis. Sama seperti penyedia film dan serial tv lainnya seperti Netflix, Disney+, HBO, Apple TV+, Amazon Prime Video, Idlix dan lainnya.</p>
+            <h2>Sosial Media kami</h2>
+            <div class="sosial-icons">
+              <a href="https://www.facebook.com/"><i id="fb" class="fa-brands fa-facebook"></i></a>
+              <a href="https://x.com/"><i id="twitter" class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i id="ig" class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i id="youtube" class="fa-brands fa-youtube"></i></a>
+            </div>
+            <button type="button" class="btn btn-danger btn-lg mt-4 text-decoration-none"><a href="contactUs.html" class="text-decoration-none text-white">Contact Us</a></button>
+          </div>
+      
+          <div class="col-md-3 mb-4">
+            <h5>Original Series</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.netflix.com/id-en/" class="nav-link2 p-0">Netflix</a></li>
+              <li class="nav-item mb-2"><a href="https://www.primevideo.com/" class="nav-link2 p-0">Amazon Prime Video</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/apple-tv-plus/" class="nav-link2 p-0">Apple TV+</a></li>
+              <li class="nav-item mb-2"><a href="https://www.hotstar.com/id/" class="nav-link2 p-0">Disney+</a></li>
+              <li class="nav-item mb-2"><a href="https://www.hbogoasia.id/" class="nav-link2 p-0">HBO</a></li>
+            </ul>
+          </div>
+      
+          <div class="col-md-3 mb-4">
+            <h5>Category</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="pilihan video.html" class="nav-link2 p-0">Action</a></li>
+              <li class="nav-item mb-2"><a href="pilihan video.html" class="nav-link2 p-0">Romance</a></li>
+              <li class="nav-item mb-2"><a href="pilihan video.html" class="nav-link2 p-0">Horror</a></li>
+              <li class="nav-item mb-2"><a href="pilihan video.html" class="nav-link2 p-0">Drama</a></li>
+              <li class="nav-item mb-2"><a href="pilihan video.html" class="nav-link2 p-0">Comedy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p class="text-secondary text-center">Copyright © 2024 by FILMKU, Inc. All rights reserved.</p>
+        </div>
+      </footer>
+  </body>
+</html>
