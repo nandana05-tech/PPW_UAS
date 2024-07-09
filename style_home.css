@@ -113,6 +113,10 @@ footer {
     letter-spacing: 2px;
 }
 
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
 .list-group {
     background-color: #686D76;
     box-shadow: 0 4px 8px rgb(255, 0, 0);
