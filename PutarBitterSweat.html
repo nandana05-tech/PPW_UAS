@@ -86,21 +86,29 @@
                       Kali ini hadir dengan cerita dan karakter baru.</p><!--text-indent=text menjorok-->
               </div>
               <div class="col-12">
-                  <ul class="nav nav-tabs" id="myTab" role="tablist"><!--nav-tabs=navigasi -->
-                      <li class="nav-item" role="presentation"><!--li=menyamping, nav-item=bagian dari nav-bar-->
-                        <button class="nav-link active bg-danger text-white" data-bs-toggle="tab" data-bs-target="#home-tab-pane" 
+                <div class="col-sm-12 col-md-12">
+                  <ul class="nav nav-pills py-2" id="myTab" role="tablist"><!--nav-pills=navigasi -->
+                    <div class="col-12 col-md-4">
+                      <li class="ms-2 py-2 nav-pills" role="presentation"><!--li=menyamping, nav-item=bagian dari nav-bar-->
+                        <button class="nav-link active bg-danger text-white w-100" data-bs-toggle="tab" data-bs-target="#home-tab-pane" 
                         type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Informasi Lengkap</button><!--nav-link=agar dapat terhubung dengan web lain,
                         active=elemen dalam keadaan aktif, bg-danger=background warna merah, text-white=text warna putih-->
                       </li>
-                      <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-danger text-white" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" 
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <li class="py-2 ms-2 nav-pills" role="presentation">
+                        <button class="nav-link bg-danger text-white w-100" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" 
                         type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Pemain dan Kru</button>
                       </li>
-                      <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-danger text-white" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" 
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <li class="py-2 ms-2 nav-pills" role="presentation">
+                        <button class="nav-link bg-danger text-white w-100" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" 
                         type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Sutradara</button>
                       </li>
+                    </div>
                     </ul>
+                  </div>
                     <div class="tab-content bg-dark" id="myTabContent">
                       <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                           <div class="card-info col-12 bg-dark">
