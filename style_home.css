@@ -132,6 +132,14 @@ footer {
     color: black;
 }
 
+td a img:hover{
+    background-color: #686D76;
+    box-shadow: 0 4px 8px rgb(255, 0, 0);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+
 #pemeran{
     height: 180px;
 }
