@@ -35,7 +35,7 @@
                 }
         });
     });
-    const forms2 = document.querySelectorAll('.needs-validation') /*document digunakan untuk titik masuk ke konten halaman web, 
+    const forms2 = document.querySelectorAll('.validation') /*document digunakan untuk titik masuk ke konten halaman web, 
     queryselectorall digunakan mendapatkan semua elemen yang ada pada class needs-validation*/
     
     Array.prototype.slice.call(forms2) /*form adalah nilai dari setiap elemen yang iterasi*/
