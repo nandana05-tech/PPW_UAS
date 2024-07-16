@@ -28,8 +28,11 @@
     .forEach(function(item) {/*foreach untuk mengeksekusi sebanyak satu kali, item adalah 
       nilai dari setiap elemen yang iterasi*/
         item.addEventListener('click', function(click) {//menentukan tindakan eksekusi jika mengklik
-                alert('Selamat datang di filmku')//sebagai peringatan jika berhasil login
-                window.location.href = 'home.html';//halaman yang akan dituju
+                const link = item.getAttribute('data-url');/*getAttribute digunakan untuk mendaatkan value pada suatu atribut*/
+                if (link) {//kondisi yang ditentukan
+                    alert('Selamat datang di filmku') //sebagai peringatan jika berhasil login
+                    window.location.href = link; //halaman yang akan dituju
+                }
         });
     });
     const forms2 = document.querySelectorAll('.needs-validation') /*document digunakan untuk titik masuk ke konten halaman web, 
